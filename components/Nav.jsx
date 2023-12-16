@@ -81,7 +81,7 @@ const Nav = () => {
             {toggleDropdown && (
               <div className="dropdown">
                 <Link
-                  href="/create-prompt"
+                  href="/profile"
                   className="dropdown_link"
                   onClick={() => setToggleDropdown(false)}
                 >
